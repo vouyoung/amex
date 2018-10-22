@@ -43,7 +43,7 @@ class CharacterSwitcher extends Component {
     return (
       <div style={parentContainerStyles} >
         <div style={subContainerStyles}>
-          <span className={`h1 center-block text-center text-${theme ? themeClass : 'muted'}`} style={{ marginBottom: 25 }}>Choose A Character</span>
+          <span className={`h1 center-block text-center text-${theme ? themeClass : 'muted'}`} style={{ marginBottom: 25 }}>Choose a character</span>
           <div className="center-block text-center">
             <SplitButton bsSize="large" bsStyle={themeClass} title={`${character || 'None'}`} id="CharacterSwitcher">
               {this.props.data.characters.map((option, index) =>
